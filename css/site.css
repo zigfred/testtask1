@@ -1,0 +1,88 @@
+body {
+    background: #eee;
+    font-size: 14px;
+    font-family: Arial;
+}
+#demo_flash {
+    width: 982px;
+    height: 365px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#demo {
+    width: 900px;
+    height: 330px;
+    margin: 0 auto;
+    padding: 10px 10px 0 10px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+}
+#demo_container {
+    overflow: hidden;
+}
+#slide_content {
+    height: 275px;
+}
+#slide_content>img {
+    width: 240px;
+    margin: 0 30px 0;
+    display: none;
+    position: absolute;
+}
+#slide_content>div {
+    padding: 20px;
+    margin-left: 310px;
+    top: -230px;
+    display: none;
+    position: relative;
+    border: 1px dotted #d3d3d3;
+    border-radius: 4px;
+    background: #f7f7f7;
+}
+
+
+#slide_panel {
+    height: 50px;
+    border-top: 1px dotted #d3d3d3;
+    text-align: center;
+    line-height: 50px;
+}
+#slide_panel > span {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+#slide_panel > span:hover {
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+#slide_panel > span.selected {
+    color: #fff;
+    border: 1px solid #808080;
+    background-color: #808080;
+}
+#arrow-left {
+    float: left;
+}
+#arrow-left span {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+#arrow-left span:hover {
+    border: 1px solid #000;
+}
+#arrow-right {
+    float: right;
+}
+#arrow-right span {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+#arrow-right span:hover {
+    border: 1px solid #000;
+}

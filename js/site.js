@@ -1,5 +1,4 @@
 jQuery(function( $ ) {
-
   var targets = [
     'chrome',
     'firefox',

@@ -1,6 +1,6 @@
 # Тестовое задание 1
 
-[http://zigfred.github.io/testtask2](http://zigfred.github.io/testtask2)
+[http://zigfred.github.io/testtask1](http://zigfred.github.io/testtask1)
 
 Во вложении видео которое описывает то, как должен работать скрипт
 (запускать index.html) Необходимо реализовать следующее:
